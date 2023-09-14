@@ -1,5 +1,5 @@
 {
-  "name": "solution-hw3",
+  "name": "https://seyunk.github.io/pui-homework-template-advanced/solution-hw3",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts reject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -e solution-hw3"
   },
   "eslintConfig": {
     "extends": [
